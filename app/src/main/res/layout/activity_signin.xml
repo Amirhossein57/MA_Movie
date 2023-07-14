@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_500">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Enter username"
+            android:maxLength="12"
+            android:textColor="@color/text_color1"
+            android:textColorHint="@color/text_color1" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Enter password"
+                android:inputType="textPassword"
+                android:maxLength="8"
+                android:textColor="@color/text_color1"
+                android:textColorHint="@color/text_color1" />
+
+            <ImageView
+                android:id="@+id/iv_show_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:src="@drawable/ice_eye"
+                android:tint="@color/text_color1" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et1_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Repeat password"
+                android:inputType="textPassword"
+                android:maxLength="8"
+                android:textColor="@color/text_color1"
+                android:textColorHint="@color/text_color1"/>
+
+            <ImageView
+                android:id="@+id/iv1_show_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:src="@drawable/ice_eye"
+                android:tint="@color/text_color1"/>
+
+        </FrameLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/round_button_background"
+            android:text="Sign in"
+            android:textColor="@color/text_color1" />
+
+
+    </LinearLayout>
+
+</ScrollView>
