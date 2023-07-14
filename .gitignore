@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Gradle files
 .gradle/
 build/
@@ -33,6 +34,8 @@ google-services.json
 # Android Profiling
 *.hprof
 =======
+=======
+>>>>>>> e9a1cdd (Initial commit)
 *.iml
 .gradle
 /local.properties
@@ -48,4 +51,7 @@ google-services.json
 .externalNativeBuild
 .cxx
 local.properties
+<<<<<<< HEAD
 >>>>>>> 074f904 (Initial commit)
+=======
+>>>>>>> e9a1cdd (Initial commit)

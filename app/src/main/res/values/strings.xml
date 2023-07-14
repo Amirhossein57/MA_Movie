@@ -1,12 +1,3 @@
 <resources>
-    <string name="app_name">MAMovieProjects</string>
-    <string name="bot_logo" />
-    <string name="home_icon" />
-    <string name="gear_icon" />
-    <string name="clock_icon" />
-    <string name="notebook_icon" />
-    <string name="dots_icon" />
-    <string name="menu" />
-    <string name="user" />
-    <string name="menu_icon" />
+    <string name="app_name">MA_Movie</string>
 </resources>
