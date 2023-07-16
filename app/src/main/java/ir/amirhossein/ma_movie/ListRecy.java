@@ -1,4 +1,4 @@
-package com.filme.mamovieprojects;
+package ir.amirhossein.ma_movie;
 
 import android.content.ClipData;
 import android.view.LayoutInflater;
@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.filme.mamovieprojects.R;
+import com.filme.ma_movie.R;
 
 import java.util.List;
 

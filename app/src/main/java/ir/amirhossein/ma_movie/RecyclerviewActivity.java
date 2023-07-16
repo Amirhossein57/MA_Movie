@@ -1,4 +1,4 @@
-package com.filme.mamovieprojects;
+package ir.amirhossein.ma_movie;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -15,7 +15,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.filme.mamovieprojects.R;
+import com.filme.ma_movie.R;
 
 import java.util.List;
 

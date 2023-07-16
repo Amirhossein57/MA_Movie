@@ -2,6 +2,7 @@ package ir.amirhossein.ma_movie;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.InputType;
 import android.view.View;
@@ -32,7 +33,7 @@ public class LoginActivity extends Activity {
                     etPassword.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
                 } else {
                     ivShowPassword.setImageResource(R.drawable.ic_eye_off);
-                    etPassword.setInputType(InputType.TYPE_CLASS_TEXT) ;
+                    etPassword.setInputType(InputType.TYPE_CLASS_TEXT);
                 }
 
                 isShowPassword = !isShowPassword;
@@ -45,6 +46,11 @@ public class LoginActivity extends Activity {
             @Override
             public void onClick(View v) {
 
+                SharedPreferences pref = getSharedPreferences("MA_Movie", MODE_PRIVATE);
+                SharedPreferences.Editor editor = pref.edit();
+                editor.putBoolean("is_Login", true);
+                editor.apply();
+
                 Intent intent = new Intent(LoginActivity.this, LoginSignInActivity.class);
                 startActivity(intent);
                 finish();
@@ -52,8 +58,8 @@ public class LoginActivity extends Activity {
             }
         });
 
-        }
     }
+}
 
 
 
